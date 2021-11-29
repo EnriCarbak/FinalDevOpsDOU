@@ -2,9 +2,9 @@
 #Second script to run
 
 RESOURCE_GROUP_NAME=final-project
-NAME_KEYVAULT=KeyvaultFinaleDOU
-ACCESSKEYNAME=ProjectKeyFinaleDOU
-ACCOUNT_KEY=HELLjaQA1kYcnZ1uxyOrSp0XddwhmUyXNoHoV/8HYmVlq4OfYBpEZzMDM1GTRG0aeMb5wh0mlBiE2/JAjkEAVw==
+NAME_KEYVAULT=KeyvaultProjectDOU
+ACCESSKEYNAME=ProjectKeyProjectDOU
+ACCOUNT_KEY=iNAyeNfKABUd5FIEhqw0AsVwfj4vJ3KA4kbW1RzR8RI1zriFWklRYFW/dibJj143CXwdqRgya85mmOjBxmD5HA==
 
 
 az keyvault create --name $NAME_KEYVAULT --resource-group $RESOURCE_GROUP_NAME

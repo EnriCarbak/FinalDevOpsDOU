@@ -18,7 +18,7 @@ We developed this solution to integrate, automate, accelerate and protect the ap
 
 ## Infrastructure
 
-[![Infrastructure diagram](Documentation/img-infrastructure/infrastructure_diagram.png)]
+![Infrastructure diagram](Documentation/img-infrastructure/infrastructure_diagram.png)
 
 The terraform code deploys on Azure the resources that are going to be used including Azure Container Registry, Azure Kubernetes Service and a Backend Container.
 
