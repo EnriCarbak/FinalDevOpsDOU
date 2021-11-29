@@ -31,10 +31,10 @@ provider "kubernetes" {
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "ProjectDOU"
-    storage_account_name = "projectstoragedou"
-    container_name       = "projectcontainerdou"
-    key                  = "prod.terraform.projectcontainerdou"
+    resource_group_name  = "final-project"
+    storage_account_name = "fpstorage"
+    container_name       = "fp-container"
+    key                  = "prod.terraform.fp-container"
   }
 }
 
