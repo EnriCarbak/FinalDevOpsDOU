@@ -1,7 +1,7 @@
 #Script used to set secret and key on vault
 #Third and last script to run
 
-NAME_KEYVAULT=KeyvaultProjectDOU
+NAME_KEYVAULT=KeyvaultProjectFinalDOU
 
-az keyvault secret set --vault-name $NAME_KEYVAULT --name "spId" --value "223af7e9-c1db-47e4-80fc-d33852941624" 
-az keyvault secret set --vault-name $NAME_KEYVAULT --name "spSecret" --value "j59N9G5F_1PWArFUe..c29qJLoiIH1Haet"
+az keyvault secret set --vault-name $NAME_KEYVAULT --name "spId" --value "14de56d2-12bb-4da2-bc75-518bd02af3ba" 
+az keyvault secret set --vault-name $NAME_KEYVAULT --name "spSecret" --value "Q9t-_Bt6KCkzv1QeSarrxnehusPtc5~JLO"
