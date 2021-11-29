@@ -3,5 +3,5 @@
 
 NAME_KEYVAULT=KeyvaultProjectFinalDOU
 
-az keyvault secret set --vault-name $NAME_KEYVAULT --name "spId" --value "14de56d2-12bb-4da2-bc75-518bd02af3ba" 
-az keyvault secret set --vault-name $NAME_KEYVAULT --name "spSecret" --value "Q9t-_Bt6KCkzv1QeSarrxnehusPtc5~JLO"
+az keyvault secret set --vault-name $NAME_KEYVAULT --name "spId" --value "8676fb93-997c-4e88-b681-798c9f5ba64d" 
+az keyvault secret set --vault-name $NAME_KEYVAULT --name "spSecret" --value "WpVCPgttn68rVQHtGYMiwGC~nqGDSbl4dg"
