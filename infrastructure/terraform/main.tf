@@ -1,10 +1,10 @@
 
 #We create our Datas to be able to use kubernetes provider
 data "azurerm_resource_group" "rg" {
-  name = "ProjectDOU"
+  name = "final-project"
 }
 data "azurerm_kubernetes_cluster" "example" {
-  name                = "kubercluster"
+  name                = "fp-kubercluster"
   resource_group_name = data.azurerm_resource_group.rg.name
 }
 
