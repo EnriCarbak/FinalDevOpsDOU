@@ -4,7 +4,7 @@ data "azurerm_resource_group" "rg" {
   name = "final-project"
 }
 data "azurerm_kubernetes_cluster" "example" {
-  name                = "fp-kubercluster"
+  name                = "kubercluster"
   resource_group_name = data.azurerm_resource_group.rg.name
 }
 
@@ -32,9 +32,9 @@ provider "kubernetes" {
 terraform {
   backend "azurerm" {
     resource_group_name  = "final-project"
-    storage_account_name = "fpstorage"
-    container_name       = "fp-container"
-    key                  = "prod.terraform.fp-container"
+    storage_account_name = "projectstoragedou"
+    container_name       = "projectcontainerdou"
+    key                  = "prod.terraform.projectcontainerdou"
   }
 }
 

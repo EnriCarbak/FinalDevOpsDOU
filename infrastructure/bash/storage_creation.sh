@@ -1,7 +1,7 @@
 # First script to run
 
 
-RESOURCE_GROUP_NAME=ProjectDOU
+RESOURCE_GROUP_NAME=final-project
 STORAGE_ACCOUNT_NAME=projectstoragedou
 CONTAINER_NAME=projectcontainerdou
 

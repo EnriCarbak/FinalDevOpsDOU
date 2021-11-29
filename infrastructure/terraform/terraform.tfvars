@@ -1,4 +1,4 @@
-prefix              = "ProjectDOU"
+prefix              = "ProjectFinalDOU"
 resource_group_name = "final-project"
 location            = "EastUS"
 node_count          = 1

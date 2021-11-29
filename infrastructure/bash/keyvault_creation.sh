@@ -1,10 +1,10 @@
 #Script used to create the keyvault on the account (ACCOUNT_KEY)
 #Second script to run
 
-RESOURCE_GROUP_NAME=ProjectDOU
-NAME_KEYVAULT=KeyvaultFinalDOU
-ACCESSKEYNAME=ProjectKeyFinalDOU
-ACCOUNT_KEY=00R2oZ4CF/4whAUQ4B/PKSjJ9413h7JBD5nGMjKINGcZEnRAiHjIGJQPC+RpJ/nvQ77FrOC0hclL5skYWP5R7A==
+RESOURCE_GROUP_NAME=final-project
+NAME_KEYVAULT=KeyvaultFinaleDOU
+ACCESSKEYNAME=ProjectKeyFinaleDOU
+ACCOUNT_KEY=HELLjaQA1kYcnZ1uxyOrSp0XddwhmUyXNoHoV/8HYmVlq4OfYBpEZzMDM1GTRG0aeMb5wh0mlBiE2/JAjkEAVw==
 
 
 az keyvault create --name $NAME_KEYVAULT --resource-group $RESOURCE_GROUP_NAME
